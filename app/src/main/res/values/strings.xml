@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">MyCommerceApp</string>
+    <string name="new_condition">new</string>
+    <string name="condition_new">Nuevo</string>
+    <string name="condition_used">Usado</string>
+    <string name="sold_items">|         %1$s  vendidos</string>
+    <string name="price">$ %1$s</string>
+    <string name="installments">en %1$s x $ %2$s sin interés</string>
+    <string name="blank_search">Ingresa algo para buscar…</string>
+    <string name="Ok">OK</string>
+    <string name="free_shipping">Envío gratis</string>
+    <string name="pay_shipping">Envío pago</string>
+    <string name="not_connected">No estas conectado a la red..</string>
+    <string name="connection_trouble">Problemas de conexión</string>
+
+    <!-- XML string resources-->
+    <string name="item_tittle">Titulo de Producto</string>
+    <string name="price_amount">$ 400.000</string>
+    <string name="accept_mercadopago">Acepta Mercadopago</string>
+    <string name="show_installments">en 12x $ 35.832 sin interés</string>
+    <string name="product">Producto</string>
+    <string name="sold_products">  |  331 vendidos</string>
+    <string name="brand">Marca:</string>
+    <string name="uninformed">No informada</string>
+    <string name="model">Model</string>
+    <string name="stock_txt">10</string>
+    <string name="search_button">Busqueda</string>
+    <string name="input_search">Ingresa tu Busqueda</string>
+    <string name="welcome">Bienvenido, En que podemos Ayudarte?</string>
+    <string name="another_att">Otros Atributos:</string>
+    <string name="free_shipping_tomorrow">Llega gratis mañana</string>
+    <string name="stock_available">Stock Disponible</string>
+</resources>
