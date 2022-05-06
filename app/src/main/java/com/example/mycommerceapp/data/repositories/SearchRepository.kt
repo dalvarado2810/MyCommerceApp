@@ -21,10 +21,10 @@ class SearchRepository @Inject() constructor(
                     val searchResponse = response.body()
                     AppResource.Success(searchResponse)
                 }else{
-                    AppResource.Error(R.string.not_connected.toString())
+                    AppResource.Error("Problemas de conexión")
                 }
             } catch (e: Exception) {
-                AppResource.Error(R.string.connection_trouble.toString())
+                AppResource.Error("No estas conectado a internet..")
             }
     }
 }

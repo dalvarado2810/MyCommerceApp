@@ -86,7 +86,7 @@ class SearchFragment : Fragment(R.layout.main_fragment) {
     private fun showMessage(message: String?) {
         message?.also {
             binding.main.snack(it, Snackbar.LENGTH_INDEFINITE) {
-                action(R.string.Ok.toString()) {
+                action(getString(R.string.Ok)) {
                 }
             }
         }
