@@ -37,7 +37,7 @@ class SearchFragment : Fragment(R.layout.main_fragment) {
         fragmentContext = requireContext().applicationContext
         binding.searchButton.setOnClickListener {
             val productName = binding.search.text.toString()
-            if (productName!!.isNotEmpty()) {
+            if (productName.isNotEmpty()) {
                 prepareSearch(productName)
                 fragmentContext.hideKeyboard(view)
             } else {
